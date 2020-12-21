@@ -12,9 +12,9 @@ if (url.searchParams.get('by') != null) {
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hai kamu", "Mau ngomong nih, mumpung ga gengsi", "question").then(function () {
-    Swal.fire("Jawab yang jujur!").then(function () {
-      Swal.fire("Awas boong ye", "", "error").then(function () {
+  Swal.fire("Hai kamu", "Aku mau ngasi pertanyaan gitoe", "question").then(function () {
+    Swal.fire("Jawab yang jujur y!").then(function () {
+      Swal.fire("No boong no gengsi HAHA", "", "error").then(function () {
 
         const {
           value: name
